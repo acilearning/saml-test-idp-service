@@ -20,4 +20,9 @@ $config = array(
         ),
     ),
 
+    'test-sp' => array(
+        'saml:SP',
+        'entityID' => 'enterprise.itpro.tv',
+        'idp' => 'http://localhost:8080/simplesaml/saml2/idp/metadata.php',
+    ),
 );
