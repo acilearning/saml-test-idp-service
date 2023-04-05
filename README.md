@@ -1,8 +1,12 @@
 # Docker Test SAML 2.0 Identity Provider (IdP)
 
-## Local Docker Development
+## ACI Local Docker Development
 
 Just run `./develop.sh`!
+
+Go to http://localhost:8080/simplesaml to ensure it is running properly
+
+---
 
 ---
 
