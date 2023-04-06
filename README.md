@@ -8,6 +8,16 @@ Go to http://localhost:8080/simplesaml to ensure it is running properly
 
 ---
 
+## ACI Staging Development
+
+Make sure you're on the VPN
+
+Run `./develop.sh`
+
+Paste `https://staging-enterprise.itpro.tv/saml-fed/course-library` or `https://staging-enterprise.itpro.tv/saml-fed/course/{some-course}` into your browser
+
+---
+
 ---
 
 Docker container with a plug and play SAML 2.0 Identity Provider (IdP) for development and testing.
