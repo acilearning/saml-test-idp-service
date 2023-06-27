@@ -16,7 +16,7 @@ Run `./develop.sh`
 
 Update your `docker-compose.yml` to the staging variables staging
 
-Paste `https://staging-enterprise.itpro.tv/saml-fed/course-library` or `https://staging-enterprise.itpro.tv/saml-fed/course/{some-course}` into your browser
+Paste `https://staging-enterprise.acilearning.com/saml-fed/course-library` or `https://staging-enterprise.acilearning.com/saml-fed/course/{some-course}` into your browser
 
 ---
 

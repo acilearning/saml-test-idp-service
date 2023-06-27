@@ -4,9 +4,9 @@ services:
   testsamlidp_idp:
     build: .
     environment:
-      SIMPLESAMLPHP_SP_ENTITY_ID: enterprise.itpro.tv
-      SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE: http://enterprise.itpro.test:1338/saml-company/saml/callback
-      SIMPLESAMLPHP_SP_SINGLE_LOGOUT_SERVICE: http://enterprise.itpro.test:1338/saml-company/logout
+      SIMPLESAMLPHP_SP_ENTITY_ID: enterprise.acilearning.com
+      SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE: http://enterprise.acilearning.test:1338/saml-company/saml/callback
+      SIMPLESAMLPHP_SP_SINGLE_LOGOUT_SERVICE: http://enterprise.acilearning.test:1338/saml-company/logout
       SIMPLESAMLPHP_ADMIN_PASSWORD: test
       SIMPLESAMLPHP_SECRET_SALT: salt
     ports:
